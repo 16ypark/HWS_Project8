@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9022CC312446C5BA00174F48 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9022CC2F2446C5BA00174F48 /* level2.txt */; };
+		9022CC322446C5BA00174F48 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9022CC302446C5BA00174F48 /* level1.txt */; };
 		9098EA2424454596003D8F27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098EA2324454596003D8F27 /* AppDelegate.swift */; };
 		9098EA2624454596003D8F27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098EA2524454596003D8F27 /* SceneDelegate.swift */; };
 		9098EA2824454596003D8F27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9098EA2724454596003D8F27 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9022CC2F2446C5BA00174F48 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
+		9022CC302446C5BA00174F48 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
 		9098EA2024454596003D8F27 /* Project8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9098EA2324454596003D8F27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9098EA2524454596003D8F27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 		9098EA2224454596003D8F27 /* Project8 */ = {
 			isa = PBXGroup;
 			children = (
+				9022CC302446C5BA00174F48 /* level1.txt */,
+				9022CC2F2446C5BA00174F48 /* level2.txt */,
 				9098EA2324454596003D8F27 /* AppDelegate.swift */,
 				9098EA2524454596003D8F27 /* SceneDelegate.swift */,
 				9098EA2724454596003D8F27 /* ViewController.swift */,
@@ -125,8 +131,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9022CC322446C5BA00174F48 /* level1.txt in Resources */,
 				9098EA3024454597003D8F27 /* LaunchScreen.storyboard in Resources */,
 				9098EA2D24454597003D8F27 /* Assets.xcassets in Resources */,
+				9022CC312446C5BA00174F48 /* level2.txt in Resources */,
 				9098EA2B24454596003D8F27 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
