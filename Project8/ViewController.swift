@@ -156,6 +156,8 @@ class ViewController: UIViewController {
     }
     
     @objc func submitTapped(_ sender: UIButton) {
+        var isComplete = true
+        
         guard let answerText = currentAnswer.text else { return }
         
         if let solutionPosition = solutions.firstIndex(of: answerText) {
@@ -168,7 +170,13 @@ class ViewController: UIViewController {
             currentAnswer.text = ""
             score += 1
             
-            if score % 7 == 0 {
+            for btn in letterButtons {
+                if !btn.isHidden {
+                    isComplete = false
+                }
+            }
+            
+            if isComplete {
                 let ac = UIAlertController(title: "Well done!", message: "Are you ready for the next level?", preferredStyle: .alert)
                 ac.addAction(UIAlertAction(title: "Let's go!", style: .default, handler: levelUp))
                 present(ac, animated: true)
@@ -183,6 +191,8 @@ class ViewController: UIViewController {
                 btn.isHidden = false
             }
             activatedButtons.removeAll()
+            
+            score -= 1
         }
     }
     
